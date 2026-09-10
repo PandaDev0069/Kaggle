@@ -1,0 +1,42 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated model and training artifacts
+*.h5
+*.keras
+*.weights.h5
+*.ckpt
+*.pickle
+best_model_*.h5
+best_model_*.weights.h5
+
+# Local notebooks and temporary outputs
+temporary.pickle
+submission.csv
+
+# Environment and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large local datasets
+Datasets/
